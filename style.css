@@ -1,0 +1,28 @@
+/* main{
+  background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.four{
+    background-color: aqua;
+}
+div{
+    border: 2px dotted rgba(44, 46, 51, 0.479);
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+} */
+ .container{
+    display:grid;
+    gap: 5px;
+    /* grid-template-columns:200px 200px 200px; */
+    /* grid-template-columns: repeat(2,100px) 200px 150px; */
+    /* grid-template-columns: repeat(3,1fr) 2fr; */
+    grid-template-columns: 200px 200px auto;
+
+ }
+ .item{
+    border: 1px solid aqua;
+    justify-content: f;
+ }
